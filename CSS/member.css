@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    background-color: #f9f9f9;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #e60012;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.members {
+    padding: 20px 10%;
+    text-align: center;
+}
+
+.members h2 {
+    font-size: 28px;
+    margin: 20px;
+    color: #e60012; 
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    padding: 15px 0; 
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(250, 2, 171, 0.3),
+        rgba(250, 2, 171, 0.3) 10px,
+        rgba(255, 255, 255, 0.3) 10px,
+        rgba(255, 255, 255, 0.3) 20px
+    ); 
+    background-size: cover;
+    width: 130%; 
+    left: 50%; 
+    margin: 0 0 30px;
+    transform: translateX(-50%); 
+    box-sizing: border-box;
+}
+
+.members h3 {
+    font-size: 28px;
+    margin: 20px;
+    color: #e60012; 
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    padding: 15px 0; 
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(250, 2, 171, 0.3),
+        rgba(250, 2, 171, 0.3) 10px,
+        rgba(255, 255, 255, 0.3) 10px,
+        rgba(255, 255, 255, 0.3) 20px
+    ); /* Pola bergaris */
+    background-size: cover;
+    width: 130%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    box-sizing: border-box;
+}
+
+
+.members h4 {
+    font-size: 28px;
+    margin: 20px;
+    color: #e60012; 
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    padding: 15px 0; 
+    background: repeating-linear-gradient(
+        45deg,
+        rgba(250, 2, 171, 0.3),
+        rgba(250, 2, 171, 0.3) 10px,
+        rgba(255, 255, 255, 0.3) 10px,
+        rgba(255, 255, 255, 0.3) 20px
+    ); 
+    background-size: cover;
+    width: 130%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    box-sizing: border-box;
+}
+
+.members-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.member {
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.member img {
+    width: 100%;
+    display: block;
+}
+
+.member p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer {
+    background-color: #d5002b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
